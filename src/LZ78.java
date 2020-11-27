@@ -7,6 +7,7 @@ public class LZ78 {
 	
 	LZ78(String d){
 		data = d;
+		dict.add("");
 	}
 
 	public void compress() {
