@@ -33,7 +33,7 @@ public class main {
 			_sc = new Scanner(System.in);
 			data = _sc.nextLine();
 			
-			// Example: <0, 'A'> <0, 'B'> <4, 'B'> <1, 'A'> <2, 'A'> <4, 'A'> <2, 'B'> <7, 'B'> <8, 'B'> <1, ''>
+			// Example: <0, 'A'> <0, 'B'> <1, 'A'> <2, 'A'> <4, 'A'> <4, 'B'> <2, 'B'> <7, 'B'> <8, 'B'> <1, ''>
 			alg = new LZ78(data);
 			alg.decompress();
 		}
